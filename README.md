@@ -1,8 +1,8 @@
-# Underwater GAN (UGAN) pytorch
+# Underwater CMRRCU-Net (CMRRCU-Net GAN) pytorch
 
-[[Original tensorflow version](https://github.com/cameronfabbri/Underwater-Color-Correction)] [[Project page](http://irvlab.cs.umn.edu/enhancing-underwater-imagery-using-gans)]
 
-This is a pytorch implementation of [Enhancing Underwater Imagery using Generative Adversarial Networks](https://arxiv.org/pdf/1801.04011.pdf). In this repo, we only implement the UGAN-GP.
+This is a pytorch implementation of [Underwater Image Enhancement by Combining
+Multi-Attention with Recurrent Residual Convolutional U-Net]. In this repo, we only implement the CMRRCU-Net.
 
 ## Usage
 
@@ -17,7 +17,7 @@ The environment can be install by commanding ```conda env create -f pytorch16.ya
 
 ### Dataset preparing
 
-UGAN is an end to end network, it aims at learning a map from imageA to imageB. 1) Download [Underwater Imagenet](https://drive.google.com/file/d/1LOM-2A1BSLaFjCY2EEK3DA2Lo37rNw-7/view) 2) Unzip it to data folder. Then the data folder should be organized as :
+CMRRCU-Net is an end to end network, it aims at learning a map from imageA to imageB. 1) Download [Underwater Imagenet](https://drive.google.com/file/d/1LOM-2A1BSLaFjCY2EEK3DA2Lo37rNw-7/view) 2) Unzip it to data folder. Then the data folder should be organized as :
 ```py
 data
     - test
