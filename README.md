@@ -65,3 +65,8 @@ In batchsize 32, I trained 300 epochs. However, it can continue be trained for b
 ![](./readme_imgs/tensorlfow_version.png)
 ![](./readme_imgs/my_result.png)
 
+@article{wang2024underwater,
+  title={Underwater Image Enhancement by Combining Multi-Attention with Recurrent Residual Convolutional U-Net},
+  author={Wang, Shuqi and Chen, Zhixiang and Wang, Hui},
+  year={2024}
+}
